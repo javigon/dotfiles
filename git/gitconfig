@@ -126,10 +126,10 @@
 [include]
   path = .gitconfig.user
 [user]
-	name = Javier González
+	name = Javier Gonzalez
 	email = javier@javigon.com
-[sendmail]
-	smtpserver = smtp.zoho.com
-	smtpserverport = 465
-	smtpencryption = ssl
+[sendemail]
+	smtpserver = smtp.gmail.com
+	smtpserverport = 587
+	smtpencryption = tls
 	smtpuser = javier@javigon.com
