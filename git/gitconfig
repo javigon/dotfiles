@@ -126,10 +126,10 @@
 [include]
   path = .gitconfig.user
 [user]
-	name = Javier Gonzalez
+	name = Javier González
 	email = javier@javigon.com
 [sendemail]
 	smtpserver = smtp.gmail.com
 	smtpserverport = 587
 	smtpencryption = tls
-	smtpuser = javier@javigon.com
+	smtpuser = jg@lightnvm.io
