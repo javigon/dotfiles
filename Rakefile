@@ -45,6 +45,10 @@ task :install_custom do
   if want_to_install?('iTunes Script')
     install_iTunes_script
   end
+
+  if want_to_install?('mutt')
+    install_mutt
+  end
 end
 
 task :install_prezto do
@@ -285,6 +289,14 @@ def install_iTunes_script
   run %{
     git clone git@github.com:javigon/iTunesScriptableLibrary.git $HOME/git/itunes_script
   }
+end
+
+def install_mutt
+  puts
+  puts "Installing mutt"
+
+  run %{ ln -nfs "$HOME/.yadr/mutt/muttrc" "${ZDOTDIR:-$HOME}/.muttrc" }
+
 end
 
 def install_prezto
