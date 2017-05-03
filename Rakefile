@@ -42,10 +42,6 @@ task :install_custom do
     install_hammerspoon
   end
 
-  if want_to_install?('iTunes Script')
-    install_iTunes_script
-  end
-
   if want_to_install?('mutt')
     install_mutt
   end
@@ -279,16 +275,6 @@ def install_hammerspoon
   }
 
   run %{ ln -nfs "$HOME/git/hammerspoon_config" "$HOME/.hammerspoon" }
-end
-
-def install_iTunes_script
-  puts
-  puts "Installing iTunes Script"
-
-  # Install iTunes Script
-  run %{
-    git clone git@github.com:javigon/iTunesScriptableLibrary.git $HOME/git/itunes_script
-  }
 end
 
 def install_mutt
