@@ -136,4 +136,4 @@
 	smtpserver = smtp.gmail.com
 	smtpserverport = 587
 	smtpencryption = tls
-	smtpuser = jg@lightnvm.io
+	smtpuser = javier@javigon.com
