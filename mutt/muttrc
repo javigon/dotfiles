@@ -34,6 +34,7 @@ macro index gi "<change-folder>=INBOX<enter>" "Go to inbox"
 macro index ga "<change-folder>=[Gmail]/All Mail<enter>" "Go to all mail"
 macro index gs "<change-folder>=[Gmail]/Sent Mail<enter>" "Go to Sent Mail"
 macro index gd "<change-folder>=[Gmail]/Drafts<enter>" "Go to drafts"
+macro index gl "<change-folder>=Development/LKML/Kernel<enter>" "Go to kernel"
 macro index gk "<change-folder>=Development/LKML/Storage<enter>" "Go to Storage"
 
 macro index \Ch "<enter-command>unset wait_key<enter><enter-command>set pipe_decode<enter><tag-prefix><pipe-entry>from-mutt<enter><enter-command>unset pipe_decode<enter><enter-command>set wait_key<enter>" "output git patches"
