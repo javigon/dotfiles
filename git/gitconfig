@@ -131,7 +131,7 @@
   path = .gitconfig.user
 [user]
 	name = Javier González
-	email = javier@javigon.com
+	email = javier.gonz@samsung.com
 [sendemail]
 	smtpserver = smtp.gmail.com
 	smtpserverport = 587
