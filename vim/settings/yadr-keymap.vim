@@ -189,6 +189,9 @@ imap <silent> <C-J> <%  %><Esc>2hi
 nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
 nnoremap <silent> ,cn :let @* = expand("%:t")<CR>
 
+" copy selection to system clipboard
+vmap <silent> ,cl :w !pbcopy<CR><CR>
+
 "Clear current search highlight by double tapping //
 nmap <silent> // :nohlsearch<CR>
 
